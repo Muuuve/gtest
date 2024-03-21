@@ -15,7 +15,7 @@ int answer;
 double result[2];
 
 TEST(roots, right_answer) {
-    answer = roots(result, 2, -5, 6);
+    answer = roots(result, 1, -5, 6);
     ASSERT_EQ(answer, 1);
     ASSERT_EQ(result[0], 3);
     ASSERT_EQ(result[1], 2);
